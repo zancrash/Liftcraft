@@ -1,0 +1,69 @@
+{
+  "routines": [
+    {
+      "fullbody": [
+        {
+          "Day 1 - Full Body": [
+            "Squat: 5x5",
+            "Bent-Over Row: 5x5",
+            "Bench Press: 5x5",
+            "Push Press: 5x5",
+            "Tricep Pushdown: 3x10",
+            "Lateral Raise: 3x10",
+            "Seated Calf Raise: 3x10"
+          ],
+          "Day 2 - Full Body": [
+            "Deadlift: 5x5",
+            "Pull-Up: 5x5",
+            "Incline Bench Press: 5x5",
+            "Overhead Press: 5x5",
+            "Barbell Curl: 3x10",
+            "Bent-Over Reverse Fly: 3x10",
+            "Calf Raise: 3x10"
+          ],
+          "Day 3 - Full Body": [
+            "Front Squat: 5x5",
+            "Bent-Over Row: 5x5",
+            "Dip: 5x5",
+            "Dumbbell Shoulder Press: 5x5",
+            "Dumbbell Tricep Extension: 3x10",
+            "Dumbbell Front Raise: 3x10",
+            "Seated Calf Raise: 3x10"
+          ]
+        }
+      ],
+      "upperlower": [
+        {
+          "Day 1 - Lower": [
+            "Squat: 3x5",
+            "Deadlift: 3xt",
+            "Bulgarian Split Squat: 3x8",
+            "Calf Raise: 3x8"
+          ], 
+          "Day 2 - Upper": [
+            "Bench Press: 3x5",
+            "Bent-Over Row: 3x5",
+            "Overhead Press: 2x8",
+            "Chin-Up: 2x8",
+            "Chest Fly: 2x15"
+          ],
+          "Day 3 - Lower": [
+            "Barbell Hip Thrust: 3x8",
+            "Seated Leg Press: 3x8",
+            "Leg Extension: 3x12",
+            "Leg Curl: 3x12",
+            "Seated Calf Raise: 4x15"
+          ],
+          "Day 4 - Upper": [
+            "Bench Press: 3x10",
+            "Seated Cable Row: 3x10",
+            "Barbell Incline Press: 2x12",
+            "Chin-Up: 2x12",
+            "Tricep Pushdown: 2x12",
+            "Hammer Curl: 2x12"
+          ]
+        }
+      ]
+    }
+  ]
+}
