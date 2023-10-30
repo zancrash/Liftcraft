@@ -2,6 +2,7 @@ import React from "react"
 import { useState, useEffect } from 'react'
 import FB from './FB'
 import UL from './UL'
+import Header from "./Header"
 
 export default function ProgramPicker() {
   const [days, setDays] = useState(0)
@@ -25,6 +26,7 @@ export default function ProgramPicker() {
 
   return (
     <div className="card-2">
+      <Header/>
       <h2>How many days a week do you wish to train?</h2>
 
       <button onClick={() => selectDays(3)}>3 days</button>

@@ -1,5 +1,6 @@
 import React from "react"
 import { useState, useEffect } from 'react'
+import Header from "./Header"
 
 export default function Explore() {
   const [selectedMuscle, setSelectedMuscle] = useState('')
@@ -88,6 +89,7 @@ export default function Explore() {
 
   return (
     <div className="card-2">
+      <Header/>
       <h2>What exercises do you wish to explore?</h2>
 
         {/* <label htmlFor="exploreDropDown">Select a muscle group: </label> */}
