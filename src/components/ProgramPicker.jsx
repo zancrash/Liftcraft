@@ -2,6 +2,8 @@ import React from "react"
 import { useState, useEffect } from 'react'
 import FB from './FB'
 import UL from './UL'
+import PPL from "./PPL"
+import PPLUL from "./PPLUL"
 import Header from "./Header"
 
 export default function ProgramPicker() {
@@ -35,7 +37,7 @@ export default function ProgramPicker() {
       <button onClick={() => selectDays(6)}>6 days</button>
 
       {
-        days == 3 && data ? <FB routines={data.routines}/> : days == 4 && data ? <UL routines={data.routines}/> : <></>
+        days == 3 && data ? <FB routines={data.routines}/> : days == 4 && data ? <UL routines={data.routines}/> : days == 5 && data ? <PPLUL routines={data.routines} /> :days == 6 && data ? <PPL routines={data.routines} /> : <></>
       }
 
       
