@@ -1,5 +1,6 @@
 import React from "react"
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import FB from './FB'
 import UL from './UL'
 import PPL from "./PPL"
@@ -35,6 +36,10 @@ export default function ProgramPicker() {
       <button onClick={() => selectDays(4)}>4 days</button>
       <button onClick={() => selectDays(5)}>5 days</button>
       <button onClick={() => selectDays(6)}>6 days</button>
+
+      <Link to="/" className="return-link">
+        <button className="return-btn">Return</button>
+      </Link>
 
       {
         days == 3 && data ? <FB routines={data.routines}/> : days == 4 && data ? <UL routines={data.routines}/> : days == 5 && data ? <PPLUL routines={data.routines} /> :days == 6 && data ? <PPL routines={data.routines} /> : <></>

@@ -10,6 +10,12 @@ header a{
   width: 100px;
 }
 
+body {
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+} 
+
+
 #root {
   width: 100%;
   margin: 50px auto;
@@ -56,8 +62,20 @@ ul li {
   padding: 2em;
 }
 
+.card-2 {
+  padding: 50px 0;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
 .card-2 button{
-  margin: 5px 0;
+  margin: 5px 10px;
+}
+
+.return-link {
+  width: fit-content;
+  display: block;
+  margin: 20px auto;
 }
 /* 
 .card-2 form{

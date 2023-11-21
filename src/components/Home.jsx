@@ -4,7 +4,7 @@ import Header from "./Header"
 
 export default function Home() {
   return (
-    <div>
+    <div className="wrapper">
       <Header />
       <h1>Select an Option</h1>
       <div className="card">
