@@ -19,7 +19,7 @@ export default function ProgramPicker() {
 
   useEffect(() => {
     // Fetch the JSON data from the file
-    fetch('data.json')
+    fetch('src/components/data.json')
       .then((response) => response.json())
       .then((jsonData) => setData(jsonData))
       .catch((error) => console.error('Error fetching data: ', error));
